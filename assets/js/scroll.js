@@ -30,6 +30,7 @@ $(document).ready(function() {
             
 //          change font family
             $('#fontname').css('font-family', fontFamily[index-1]);
+            
 //          change font color
             $('#removeText').css('color', fontColor[index-1]);
             
