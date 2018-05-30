@@ -28,12 +28,10 @@ span {
 #fonttable {
     opacity: 1;
     
-    left: 50vw;
-    
     padding-left: 3rem;
     padding-right: 3rem;
     
-    margin-left: -30rem;
+    margin:auto;
     margin-bottom: 2.5rem;
     
     width:54rem;
@@ -76,3 +74,24 @@ output{
 }
 
 
+/* 테스트 파트 */
+
+/* Backgrounds will cover all the section
+	* --------------------------------------- */
+.section{
+    background-size: cover;
+}
+
+
+/* Defining each section background and styles
+* --------------------------------------- */
+#section0{
+    background-image: url(assets/img/walls/1.jpg);
+}
+
+#section1{
+    background-image: url(assets/img/walls/2.jpg);
+}
+#section2{
+    background-image: url(assets/img/walls/3.jpg);
+}
