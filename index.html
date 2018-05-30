@@ -6,6 +6,7 @@
     <title>cheong</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
 </head>
 
@@ -36,28 +37,6 @@
     </nav>
     <main class="page" style="overflow-y: hidden;">
 
-        <div class="docScroller">
-
-            <div class="page one">
-              <div class="inside">
-              </div>
-            </div>
-            <br/>
-            <div class="page two">
-              <div class="inside">
-              </div>
-            </div>
-            <br/>
-            <div class="page three">
-              <div class="inside">
-              </div>
-            </div>
-            <br/>
-            <div class="page four">
-              <div class="inside">
-
-              </div>
-            </div>
 
             <div id="fonttable" class="container shadow fixed-bottom">
                 <div class="row align-items-center" style="height: 100%;">
@@ -72,30 +51,24 @@
                         </div>
                         <div id="slider" class="row align-middle" style="">
                             <output id="rangevalue" class="align-middle" style="width:2rem;">38</output>
-                            <input id="rangeinput" class="align-middle" style="height:100%;" type="range" min="30" max="45" value="38" onchange="rangevalue.value=value"></input>
+                            <input id="rangeinput" class="align-middle" style="height:100%;" type="range" min="30" max="45" value="38" onchange="rangevalue.value=value">
+                                <div style="width:0.19rem; height:1rem; background-color:black; position:absolute; right:4.6rem; top:0.28rem;"></div>
+                            </input>
                         </div>
                     </div>
 
                     <div class="col" style="">
                         <div class="row" style="">
-                            <div class="col-4"style="font-size:1rem;"><a class="btn btn-primary" style="background-color:black; border:0;"href="#" role="button">Download</a></div>
-                            <div class="col-4"style="font-size:1rem;"><a class="btn btn-primary" style="background-color:black; border:0;"href="#" role="button">Download</a></div>
-                            <div class="col-4"style="font-size:1rem;"><a class="btn btn-primary" style="background-color:black; border:0;"href="#" role="button">Download</a></div>
-                            
-                            
-                            
-<!--
-                            <div class="col"style="font-size:1rem;">Download</div>
-                            <div class="col"style="font-size:1rem;">Similar fonts</div>
-                            <div class="col"style="font-size:1rem;">License</div>
--->
+                            <div><a class="btn btn-primary blackbutton" style="background-color:black;" href="#" role="button">Download</a></div>
+                            <div><a class="btn btn-primary blackbutton" style="background-color:black;" href="#" role="button">Similar fonts</a></div>
+                            <div><a class="btn btn-primary blackbutton" style="background-color:black;" href="#" role="button">License</a></div>
+
                         </div>
                     </div>
 
 
 
                 </div>
-            </div>
         </div>
     </main>
     
@@ -103,6 +76,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.11/jquery.scrollify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="assets/js/theme.js"></script>
     
     <script>
