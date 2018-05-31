@@ -1,0 +1,21 @@
+ /* fixed width */
+
+.container {
+  width: 1120px;
+  max-width: none !important;
+}
+
+.card-columns {
+    max-width:95vw;
+    column-count: 3;
+}
+
+
+
+
+
+
+
+.copyright {
+    color: white;
+}
