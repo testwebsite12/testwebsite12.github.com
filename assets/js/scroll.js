@@ -10,7 +10,8 @@ var posterTitle = [
 
 var fontColor = ['black', 'black', 'white', 'black', 'white'];
 var fontFamily = ['Nanum Gothic','Roboto','Arial Black','Avenir Next Condensed','PT Sans Caption'];
-var fontWeight = ['Extra-Bold','','Regular','',''];
+var fontWeight = ['800','400','400','400','400'];
+var fontWeightText = ['Extra Bold','','Regular','',''];
 
 $(document).ready(function() {
     $('#fullpage').fullpage({
@@ -27,7 +28,7 @@ $(document).ready(function() {
             $('#fontname').remove();
             
 //          append font name            
-            $('#appendFontname').append('<div id="fontname" class="col align-text-bottom" style="">'+fontFamily[index-1] + ' ' + fontWeight[index-1] +'</div>');
+            $('#appendFontname').append('<div id="fontname" class="col align-text-bottom" style="">'+fontFamily[index-1] + ' ' + fontWeightText[index-1] +'</div>');
             
 //          change font family
             $('#fontname').css('font-family', fontFamily[index-1]);
