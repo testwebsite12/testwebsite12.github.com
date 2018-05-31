@@ -1,58 +1,109 @@
- /* fixed width */
-
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;  
+  color: black;
+}
 .container {
   width: 1120px;
   max-width: none !important;
 }
 
-.card-columns {
-    max-width:95vw;
-    column-count: 5;
+.tooltip {
+  font-family: nanum gothic;
+  font-size: 12px;
 }
 
- /* overlay */
 
-.ovl {
-    opacity: 0;
-    transition: 0.3s;
-    transition-property:background-color, opacity;
-    padding: 0;
-    margin: 0;
-
+.whitebutton{
+    margin-left:auto;
+    margin-right:1rem;
+    border:0;
+    font-size:0.85rem;
+    font-family: nanum gothic;
+    font-weight: 600;
+    color:black !important;
+    background-color:white;
     
 }
 
-.ovl:hover {
+
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+#fonttable {
     opacity: 1;
-    background-color: rgb(0,0,0,0.2);
-    padding: 0;
+    
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+    margin:auto;
+    margin-bottom: 2.5rem;
+    
+    width:54rem;
+    height:6.8rem;
+    
+    background-color: white;
+}
+
+#fontname {
+    position: absolute;
+    bottom:45%;
+    font-size:1.5rem;
+}
+
+#slider {
+    position: absolute;
+    top:60%;
+    display: table-cell;
+    vertical-align: middle; 
+    width:20rem;
+    padding-left:15px;
+}
+
+input[type="range"] {
+    width: 12rem !important;
+    height: 5rem; /* thumbHeight + (2 x thumbBorderWidth)*/
+    -webkit-appearance: black; /*remove the line*/
+    outline: none;
+    background-color:black;
+    color:black;
+    border: 0; /*for firefox on android*/
+    padding: 0; /*for IE*/
     margin: 0;
 }
 
 
-/* overlay white box*/
-
-.ovl-box {
-    height: 4rem; 
-    width:100%;
-    background-color:white; 
-    padding:0;
-    margin:0;
-    position: absolute;
-    bottom: 0;
+output{
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 
+/* 테스트 파트 */
 
-
-.redbutton {
-    background-color: red; 
-    border:0;
-    font-size:0.9rem;
+/* Backgrounds will cover all the section
+	* --------------------------------------- */
+.section{
+    background-size: cover;
 }
 
 
+/* Defining each section background and styles
+* --------------------------------------- */
+#section0{
+    background-image: url(assets/img/walls/1.jpg);
+}
 
-.copyright {
-    color: white;
+#section1{
+    background-image: url(assets/img/walls/2.jpg);
+}
+#section2{
+    background-image: url(assets/img/walls/3.jpg);
 }
