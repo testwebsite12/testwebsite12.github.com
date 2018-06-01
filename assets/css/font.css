@@ -30,7 +30,7 @@ nav {
 
 .top {
     padding-top: 0.9rem;
-    height:7.7rem;
+    height:6.6rem;
 }
 
 .fontName {
@@ -71,13 +71,15 @@ nav {
     width: 99%;
     position: absolute;
     top:0;
-    padding-top:4rem;
+/*    padding-top:4rem;*/
     z-index: 1;
-    left:0.5%;
-    display:inline-flex;
+/*    left:0.5%;*/
     vertical-align:top;
-    flex-flow:row nowrap;
-    justify-content: space-between;
+    
+    height:100%;
+    
+    display:inline-flex;
+    flex-flow:column nowrap;
 /*
     transition: 0.3s;
     transition-property:background-color, opacity;
@@ -85,25 +87,65 @@ nav {
 }
 
 
-.slider {
-    height:60%;
-    width:18%;
-    justify-content: space-between;
-    display:inline-flex;
-    flex-flow:column nowrap;
-}
-
-h3 {
-    font-family: roboto;
-    font-weight:400;
-    text-align: left;
-    color:#ff1100;
-    font-size: 0.8rem;
-}
-
-input {
+.reset {
+    margin-top: 0.9rem;
+    height:2.3rem;
     width:100%;
+/*    background-color: rgb(100,100,100,0.2);*/
+    display:inline-flex;
+    flex-flow:row nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
 }
+
+    .resetbutton {
+        display:inline-flex;
+        flex-flow:column nowrap;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        
+    }
+        h4{
+            font-family: roboto;
+            font-weight:500;
+            text-align: center;
+            color:#ff5252;
+            font-size: 0.8rem;
+            margin: 0;
+            margin-top: -0.1rem;
+        }
+
+.slides {
+    height:7.2%;
+    width:100%;
+    margin-top: 0.7rem;
+    display:inline-flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+}
+
+    .value {
+        height:100%;
+        width:18%;
+        justify-content: space-between;
+        display:inline-flex;
+        flex-flow:column nowrap;
+    }
+
+
+        h3 {
+            font-family: roboto;
+            font-weight:400;
+            text-align: center;
+            color:#ff5252;
+            font-size: 0.8rem;
+        }
+
+        input {
+            width:100%;
+        }
                         
 
 

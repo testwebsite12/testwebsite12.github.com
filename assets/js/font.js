@@ -39,7 +39,6 @@ $(document).ready(function() {
                     $('#testText"+i+"').css('line-height', s + '%');\
                 });\
             </script>\
-<!--//      Cards-->\
             <div id=card"+i+" class='card'>\
                 <div class='top'>\
                     <h1 class='fontName'>"+cards[i][0]+"</h1>\
@@ -49,21 +48,28 @@ $(document).ready(function() {
                     <output id='testText"+i+"' class='testText align-middle'>"+ cards[i][3]+"</output>\
                 </div>\
                 <div id=ovl"+i+" class='ovl'>\
-                    <div id=fontSize class=slider>\
-                        <h3 id=sliderTitle>Size</h3>\
-                        <input id='fontSizeVal"+i+"' type='range' min='1.0' max='3' value='2' step='0.1'>\
+                    <div class='reset'>\
+                        <div class='resetbutton'>\
+                            <h4>Reset</h4>\
+                        </div>\
                     </div>\
-                    <div id=fontWeight class=slider>\
-                        <h3 class=sliderTitle>Weight</h3>\
-                        <input id='fontWeightVal" + i +"' type='range' min='100' max='800' value='400' step='50'>\
-                    </div>\
-                    <div id=letterSpacing class=slider>\
-                        <h3 class=sliderTitle>Space</h3>\
-                        <input id='letterSpacingVal"+i+"' type='range' min='-0.3' max='0.3' value='0' step='0.05'>\
-                    </div>\
-                    <div id=lineHeight class=slider>\
-                        <h3 class=sliderTitle>Height</h3>\
-                        <input id='lineHeightVal"+i+"' type='range' min='105' max='165' value='135' step='0.5'>\
+                    <div class='slides'>\
+                        <div id=fontSize class=value>\
+                            <h3 id=sliderTitle>Size</h3>\
+                            <input id='fontSizeVal"+i+"' type='range' min='1.0' max='3' value='2' step='0.1'>\
+                        </div>\
+                        <div id=fontWeight class=value>\
+                            <h3 class=sliderTitle>Weight</h3>\
+                            <input id='fontWeightVal"+i+"' type='range' min='100' max='800' value='400' step='50'>\
+                        </div>\
+                        <div id=letterSpacing class=value>\
+                            <h3 class=sliderTitle>Space</h3>\
+                            <input id='letterSpacingVal"+i+"' type='range' min='-0.3' max='0.3' value='0' step='0.05'>\
+                        </div>\
+                        <div id=lineHeight class=value>\
+                            <h3 class=sliderTitle>Height</h3>\
+                            <input id='lineHeightVal"+i+"' type='range' min='105' max='165' value='135' step='0.5'>\
+                        </div>\
                     </div>\
                 </div>\
             </div>\
