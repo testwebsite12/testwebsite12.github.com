@@ -12,7 +12,99 @@
 
 
 
+h1 {
+    margin-bottom: 0.3rem;
+}
 
+nav {
+   z-index: 999999; 
+}
+
+.card {
+    height:25rem;
+    border-radius: 0;
+    border-width: 0.05rem 0 0 0;
+    border-color: rgb(1,1,1,0.6);
+
+}
+
+.top {
+    padding-top: 0.9rem;
+    height:7.7rem;
+}
+
+.fontName {
+    font-family:roboto; 
+    font-size:0.9rem;
+    font-weight: 500;
+
+}
+.author {
+    font-family:roboto; 
+    font-size:0.8rem;
+    font-weight: 400;
+    color: rgb(1,1,1,0.5);
+
+}
+
+.middle {
+}
+
+.testText {
+
+    color:black;
+    width:100%;
+    margin: 0;
+    padding: 0;
+
+    /* 모두 변수로 변경해야함 */
+    font-family:nanum gothic;
+    font-weight:400;
+    font-size:2rem;
+    letter-spacing:0rem;
+    line-height:135%;
+}
+
+.ovl {
+    opacity: 1;
+    height: 30%;
+    width: 99%;
+    position: absolute;
+    top:0;
+    padding-top:4rem;
+    z-index: 1;
+    left:0.5%;
+    display:inline-flex;
+    vertical-align:top;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+/*
+    transition: 0.3s;
+    transition-property:background-color, opacity;
+*/
+}
+
+
+.slider {
+    height:60%;
+    width:18%;
+    justify-content: space-between;
+    display:inline-flex;
+    flex-flow:column nowrap;
+}
+
+h3 {
+    font-family: roboto;
+    font-weight:400;
+    text-align: left;
+    color:#ff1100;
+    font-size: 0.8rem;
+}
+
+input {
+    width:100%;
+}
+                        
 
 
 
