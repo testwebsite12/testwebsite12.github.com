@@ -1,11 +1,10 @@
 ﻿number,fontName,fontFamily,author,testText,img1,img2,img3,img4
-1,Playfair Display SC,Playfair Display SC,Claus Eggers Sørensen (6 styles),The spectacle before us was indeed sublime.,1,2,3,4
-2,Roboto,roboto,Christian Robertson (12 styles),Mist enveloped the ship three hours out from port.,1,2,3,4
-3,IBM Plex Sans,IBM Plex Sans,"Mike Abbink, Bold Monday (14 styles)","I watched the storm, so beautiful yet terrific.",1,2,3,4
-4,Montserrat,Montserrat,"Sol Matas, Jacques Le Bailly (18 styles)",A shining crescent far beneath the flying vessel.,1,2,3,4
-5,Raleway,raleway,Multiple Designers (18 styles),The face of the moon was in shadow.,1,2,3,4
-6,Arial Black,Arial Black,"Robin Nicholas, Patricia Saunders (1 style)",It was going to be a lonely trip back.,1,2,3,4
-7,Song Myung,Song Myung,JIKJISOFT (1 styles),알아차리기도 전에 우리는 육지와 멀어졌다.,1,2,3,4
-8,Nanum Gothic,nanum gothic,Sandol (3 styles),그들의 장비와 기구는 모두 살아 있다.,1,2,3,4
-9,Sunflower,Sunflower,JIKJISOFT (3 styles),삐죽삐죽한 날개 윤곽이 붉게 빛났다.,1,2,3,4
-,,,,,,,,
+1,Playfair Display SC,Playfair Display SC,Claus Eggers Sørensen (6 styles),The spectacle before us was indeed sublime.,Playfair1,Playfair2,Playfair3,Playfair4
+2,Roboto,roboto,Christian Robertson (12 styles),Mist enveloped the ship three hours out from port.,roboto1,roboto2,roboto3,roboto4
+3,IBM Plex Sans,IBM Plex Sans,"Mike Abbink, Bold Monday (14 styles)","I watched the storm, so beautiful yet terrific.",ibm1,ibm2,ibm3,ibm4
+4,Montserrat,Montserrat,"Sol Matas, Jacques Le Bailly (18 styles)",A shining crescent far beneath the flying vessel.,Montserrat1,Montserrat2,Montserrat3,Montserrat4
+5,Raleway,raleway,Multiple Designers (18 styles),The face of the moon was in shadow.,raleway1,raleway2,raleway3,raleway4
+6,Arial Black,Arial Black,"Robin Nicholas, Patricia Saunders (1 style)",It was going to be a lonely trip back.,arial1,arial2,arial3,arial4
+7,Song Myung,Song Myung,JIKJISOFT (1 styles),알아차리기도 전에 우리는 육지와 멀어졌다.,song1,song2,song3,song4
+8,Nanum Gothic,nanum gothic,Sandol (3 styles),그들의 장비와 기구는 모두 살아 있다.,nanum1,nanum2,nanum3,nanum4
+9,Sunflower,Sunflower,JIKJISOFT (3 styles),삐죽삐죽한 날개 윤곽이 붉게 빛났다.,sunflower1,sunflower2,sunflower3,sunflower4
