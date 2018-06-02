@@ -115,20 +115,19 @@ nav {
     bottom:0;
     margin-bottom: 1.5rem;
     width:100%;
-    max-height: 30%;
-    overflow: hidden;
+    height: 6.8rem;
+    overflow: scroll;
     display:inline-flex;
     flex-flow:row nowrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .poster-image {
-    display:inline-flex;
-    flex-flow:row nowrap;
-    flex-direction: row;
     width:auto;
+    
     height:6.8rem;
+    margin-right: 1rem;
 }
 
 .ovl {
@@ -140,7 +139,7 @@ nav {
     vertical-align:top;
     
     height:100%;
-    
+    pointer-events: none;
     display:inline-flex;
     flex-flow:column nowrap;
     
@@ -157,6 +156,7 @@ nav {
     flex-flow:row nowrap;
     flex-direction: row;
     justify-content: flex-end;
+    
 }
 
     .resetbutton {
@@ -167,6 +167,7 @@ nav {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
         cursor:pointer;
+        pointer-events: auto;
         
         
     }
@@ -188,6 +189,7 @@ nav {
     display:inline-flex;
     flex-flow:row nowrap;
     justify-content: space-around;
+    pointer-events: auto;
 }
 
     .value {
