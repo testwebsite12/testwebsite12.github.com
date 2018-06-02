@@ -13,7 +13,7 @@ $(document).ready(function() {
     function processData(csvFile) {
         data=$.csv.toObjects(csvFile);
         $.get('assets/module/card.html', function(template) {
-            $.tmpl(template, data).appendTo('.card-columns');
+            $.tmpl(template, data).appendTo('.tile-columns');
         });
     }
 });

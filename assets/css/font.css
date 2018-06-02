@@ -1,16 +1,50 @@
  /* fixed width */
+@screen-xs: 0;
+@screen-xs-min: 0;
+@screen-phone: 0;
+@screen-sm: 0;
+@screen-sm-min: 0;
+@screen-tablet: 0;
 
 .container {
-  width: 1120px;
-  max-width: none !important;
+  min-width: 1000px;
+  max-width: 1100px !important;
 }
 
-.card-columns {
-    max-width:95vw;
-    column-count: 3;
+.tile-columns {
+    
+    flex-flow:row wrap;
+    flex-direction: row;
+    margin: auto;
+    display:inline-flex;
+/*
+    background:silver;
+    border:5px solid black;
+*/
+    justify-content: space-between;
 }
 
+.tile-columns2 {
+    height: 1rem;
+    flex-flow:row wrap;
+    flex-direction: row;
+    margin: auto;
+    display:inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
 
+.tile2 {
+/*    max-height:25rem;*/
+    flex-basis:30%;
+    border-top:0.7px solid;
+    border-color: rgba(0,0,0,0.4);
+    display:flex;
+    position: relative;
+    flex-flow:column nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
 h1 {
     margin-bottom: 0.3rem;
@@ -20,19 +54,26 @@ nav {
    z-index: 999999; 
 }
 
-.card {
-    height:25rem;
-    border-radius: 0;
-    border-width: 0;
-    border-top-width: 0.7px;
-    border-color: rgba(0,0,0,0.4) !important;
-
+.tile {
+/*    max-height:25rem;*/
+    width:28%;
+    min-height:25rem;
+    flex-basis:30%;
+    border-top:0.7px solid;
+    border-color: rgba(0,0,0,0.4);
+    display:flex;
+    position: relative;
+    flex-flow:column nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 11rem;
 }
 
 
 .top {
     padding-top: 0.9rem;
-    height:6.6rem;
+    height:4.7rem;
+    width:100%;
 }
 
     .fontName {
@@ -50,6 +91,7 @@ nav {
     }
 
 .middle {
+    margin-top: 2rem;
 }
 
 .testText {
@@ -65,27 +107,44 @@ nav {
     font-size:2rem;
     letter-spacing:0rem;
     line-height:135%;
+    
+}
+
+.bottom {
+    position: absolute;
+    bottom:0;
+    margin-bottom: 1.5rem;
+    width:100%;
+    max-height: 30%;
+    overflow: hidden;
+    display:inline-flex;
+    flex-flow:row nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.poster-image {
+    display:inline-flex;
+    flex-flow:row nowrap;
+    flex-direction: row;
+    width:auto;
+    height:6.8rem;
 }
 
 .ovl {
     opacity: 0;
     height: 30%;
-    width: 99%;
-    position: absolute;
+    width: 100%;
     top:0;
-/*    padding-top:4rem;*/
-    z-index: 1;
-/*    left:0.5%;*/
+    z-index: 3;
     vertical-align:top;
     
     height:100%;
     
     display:inline-flex;
     flex-flow:column nowrap;
-/*
-    transition: 0.3s;
-    transition-property:background-color, opacity;
-*/
+    
+    position: absolute;
 }
 
 
@@ -107,6 +166,8 @@ nav {
         justify-content: space-around;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
+        cursor:pointer;
+        
         
     }
         h4{
@@ -117,10 +178,11 @@ nav {
             font-size: 0.8rem;
             margin: 0;
             margin-top: -0.1rem;
+            cursor:pointer;
         }
 
 .slides {
-    height:7.2%;
+    height:1.8rem;
     width:100%;
     margin-top: 0.7rem;
     display:inline-flex;
