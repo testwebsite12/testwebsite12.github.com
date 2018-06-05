@@ -28,4 +28,15 @@ $(document).ready(function() {
     }
     
     
+    
+    
+    
 });
+
+
+function descriptionOff() {
+    $('.descriptionBack').css({
+        'visibility': 'hidden'
+    });
+    $('body').css({'overflow-y': 'scroll'});
+}

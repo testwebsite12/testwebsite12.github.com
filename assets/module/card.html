@@ -1,3 +1,18 @@
+<script>
+    function descriptionChange${number}() {
+        $('#title').html('${fontname} Poster');
+        $('#author').html('by ${author} on ${date}');
+        $('#posterImg').attr('src', 'assets/img/scroll/${pic}.${extension}');
+        $('#fontNameVal').html('${fontname}');
+        $('#fontSizeVal').html("${fontsize}");
+        $('#categoryVal').html("${fontcategory}");
+        $('#licenseVal').html("${license}");
+        $('#fontPreview').css({'font-family': '${fontfamily}'});
+        $('.descriptionBack').css({'visibility': 'visible'});
+        $('body').css({'overflow-y': 'hidden'});
+    }
+</script>
+
 <div class="card">
     <img class="card-img img-fluid" src="/assets/img/scroll/${pic}.${extension}" alt="Card image">
     <div class="card-img-overlay ovl" >
@@ -8,7 +23,7 @@
                     <div class="row"style="height:70%; font-size:8pt;">${follower}</div>
                 </div>
                 <div class="col" style="padding-right: 13%;">
-                    <a class="btn btn-primary redbutton" style="background-color:#ff5252;" href="#" role="button">+더보기</a>
+                    <a class="btn btn-primary redbutton" style="background-color:#ff5252; color:white;" onclick='descriptionChange${number}()' role="button">+더보기</a>
                 </div>
             </div>
 
