@@ -1,38 +1,318 @@
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;  
-  color: black;
-}
 .container {
-  width: 1120px;
-  max-width: none !important;
+  min-width: 1000px;
+  max-width: 1100px !important;
+}
+#header{
+    opacity: 1 !important;
 }
 
-.tooltip {
-  font-family: nanum gothic;
-  font-size: 12px;
+#section0{
+    background-image: url(../img/walls/1.jpg) !important;
+}
+#section1{
+    background-image: url(../img/walls/2.jpg) !important;
+}
+#section2{
+    background-image: url(../img/walls/3.jpg) !important;
+}
+#section3{
+    background-image: url(../img/walls/4.jpg) !important;
+}
+#section4{
+    background-image: url(../img/walls/5.jpg) !important;
+}
+#section5{
+    background-image: url(../img/walls/6.jpg) !important;
+}
+
+#animation1{
+    background-image: url(../img/animation/1/1.png) !important;
+}
+#animation2-1{
+    background-image: url(../img/animation/2/1.png) !important;
+}
+#animation2-2{
+    background-image: url(../img/animation/2/2.png) !important;
+}
+#animation2-3{
+    background-image: url(../img/animation/2/3.png) !important;
+}
+#animation2-4{
+    background-image: url(../img/animation/2/4.png) !important;
+}
+#animation2-5{
+    background-image: url(../img/animation/2/5.png) !important;
+}
+#animation2-6{
+    background-image: url(../img/animation/2/6.png) !important;
+}
+
+#animation3-1{
+    background-image: url(../img/animation/3/1.png) !important;
+}
+#animation3-2{
+    background-image: url(../img/animation/3/2.png) !important;
+}
+#animation3-3{
+    background-image: url(../img/animation/3/3.png) !important;
+}
+#animation3-4{
+    background-image: url(../img/animation/3/4.png) !important;
+}
+#animation3-5{
+    background-image: url(../img/animation/3/5.png) !important;
+}
+
+#animation4-1{
+    background-image: url(../img/animation/4/1.png) !important;
+}
+#animation4-2{
+    background-image: url(../img/animation/4/2.png) !important;
+}
+#animation4-3{
+    background-image: url(../img/animation/4/3.png) !important;
+}
+#animation4-4{
+    background-image: url(../img/animation/4/4.png) !important;
+}
+#animation4-5{
+    background-image: url(../img/animation/4/5.png) !important;
+}
+
+#animation5-1{
+    background-image: url(../img/animation/5/1.png) !important;
+}
+#animation5-2{
+    background-image: url(../img/animation/5/2.png) !important;
+}
+#animation5-3{
+    background-image: url(../img/animation/5/3.png) !important;
+}
+#animation5-4{
+    background-image: url(../img/animation/5/4.png) !important;
+}
+#animation5-5{
+    background-image: url(../img/animation/5/5.png) !important;
+}
+#animation5-6{
+    background-image: url(../img/animation/5/6.png) !important;
 }
 
 
-.whitebutton{
-    margin-left:auto;
-    margin-right:1rem;
-    border:0;
-    font-size:0.85rem;
-    font-family: nanum gothic;
-    font-weight: 600;
-    color:black !important;
-    background-color:white;
+
+
+body, li {
+
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.section {
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#animation1 {
+    background-position: center;
+    background-size: cover;
+    height:140vh;
+    width:100vw;
+    margin: 0;
     
 }
 
 
+.inner{
+    height: 100vh;
+    width:100vw;
+}
+.animation2 {
+    position: absolute;
+    top: 100vh;
+    left:0;
+/*    z-index: 1000;*/
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100%;
+    margin: 0;
+    
+}
 
-span {
-  display: inline-block;
-  vertical-align: middle;
+.animation3 {
+    position: absolute;
+    top: 200vh;
+    left:;
+/*    z-index: 1000;*/
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    margin: 0;
+    
+}
+
+.animation4 {
+    position: absolute;
+    top: 300vh;
+    left:;
+/*    z-index: 1000;*/
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    margin: 0;
+    
+}
+
+.animation5 {
+    position: absolute;
+    top: 400vh;
+    left:;
+/*    z-index: 1000;*/
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    margin: 0;
+    
+}
+
+#animation2-1 {
+    left:10rem;
+}
+#animation2-2 {
+    left:10rem;
+}
+#animation2-3 {
+    left:20rem;
+}
+#animation2-4 {
+    left:30rem;
+}
+#animation2-5 {
+    left:40rem;
+}
+#animation2-6 {
+    left:50rem;
+}
+
+#animation3-1 {
+    margin-top:10rem;
+}
+#animation3-2 {
+    left:30rem;
+}
+#animation3-3 {
+    left:20rem;
+}
+#animation3-4 {
+    right:30rem;
+}
+#animation3-5 {
+    right:20rem;
+}
+
+
+#animation4-1 {
+    margin-top:10rem;
+}
+#animation4-2 {
+    left:20rem;
+}
+#animation4-3 {
+    margin-top:20rem;
+}
+#animation4-4 {
+    margin-top:30rem;
+}
+#animation4-5 {
+    margin-top:20rem;
+}
+
+#animation5-1 {
+    right:10rem;
+}
+#animation5-2 {
+    right:20rem;
+}
+#animation5-3 {
+    left:20rem;
+}
+#animation5-4 {
+    left:10rem;
+}
+#animation5-5 {
+    right:40rem;
+}
+#animation5-6 {
+    left:30rem;
+}
+
+
+.pagination {
+    display: inline-block;
+	position:fixed;
+	left:20px;
+	top: 50%;
+    transform: translateY(-50px);
+	font-size:1.4em;
+	z-index: 10;
+    width:20px
+}
+.pagination a {
+	display:block;
+	height:20px;
+	margin-bottom:5px;
+	color:#333;
+	position:relative;
+	padding:4px;
+}
+.pagination a.activeDot:after {
+	box-shadow:inset 0 0 0 5px;
+} 
+.pagination a:hover .hover-text {
+	opacity: 1;
+}
+.pagination a:after {
+	-webkit-transition:box-shadow 0.5s ease;
+	transition:box-shadow 0.5s ease;
+	width:10px;
+	height:10px;
+	display: block;
+	border:1px solid;
+	border-radius:50%;
+	content:'';
+	position: absolute;
+	margin:auto;
+	top:0;
+	right:4px;
+	bottom:0;
+}
+
+
+.redbutton {
+    background-color: #ff5252; 
+    border:0;
+    font-size:0.7rem;
+}
+
+
+
+.copyright {
+    color: white;
 }
 
 
@@ -85,25 +365,30 @@ output{
     font-weight: 600;
 }
 
-
-/* 테스트 파트 */
-
-/* Backgrounds will cover all the section
-	* --------------------------------------- */
-.section{
-    background-size: cover;
+.tooltip {
+  font-family: nanum gothic;
+  font-size: 12px;
 }
 
 
-/* Defining each section background and styles
-* --------------------------------------- */
-#section0{
-    background-image: url(assets/img/walls/1.jpg);
+.whitebutton{
+    margin-left:auto;
+    margin-right:1rem;
+    border:0;
+    font-size:0.85rem;
+    font-family: nanum gothic;
+    font-weight: 600;
+    color:black !important;
+    background-color:white;
+    
 }
 
-#section1{
-    background-image: url(assets/img/walls/2.jpg);
+
+
+span {
+  display: inline-block;
+  vertical-align: middle;
 }
-#section2{
-    background-image: url(assets/img/walls/3.jpg);
-}
+
+
+
