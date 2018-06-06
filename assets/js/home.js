@@ -12,6 +12,7 @@ var fontColor = ['black', 'black', 'white', 'black', 'white'];
 var fontFamily = ['Nanum Gothic','Roboto','Arial Black','Avenir Next Condensed','PT Sans Caption'];
 var fontWeight = ['800','400','400','400','400'];
 var fontWeightText = ['Extra Bold','','Regular','',''];
+var simFont = ['나눔스퀘어','Source Sans Pro','Bowlby One SC','Open Sans Condensed','Merriweather Sans','다음체','Noto Sans','Black Han Sans','Rubik','Asap'];
 
 $(document).ready(function() {
     var index = $.scrollify.currentIndex();
@@ -35,6 +36,8 @@ $(document).ready(function() {
 
 //          change font weight
     $('#fontname').css('font-weight', fontWeight[index]);
+    
+
 
     $.scrollify({
         section:".section",
@@ -43,7 +46,9 @@ $(document).ready(function() {
         scrollSpeed: 1200,
         updateHash: false,
         before:function(i,panels) {
+           
             var index = $.scrollify.currentIndex();
+             $('#tooltip').attr('data-original-title', simFont[index]+'<br/>'+simFont[index+6]);
 //          append font name            
             //          remove title
             $('#removeText').remove();
@@ -65,6 +70,7 @@ $(document).ready(function() {
 //          change font weight
             $('#fontname').css('font-weight', fontWeight[index]);
             
+            
             var ref = panels[i].attr("id");
             
             $(".pagination .activeDot").removeClass("activeDot");
@@ -85,6 +91,7 @@ $(document).ready(function() {
             });
 
             pagination += "</ul>";
+      
 
             $("#section0").append(pagination);
             $(".pagination a").on("click",$.scrollify.move);
